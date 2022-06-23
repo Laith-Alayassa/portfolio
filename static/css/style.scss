@@ -14,7 +14,7 @@ html, body {
 }
 
 .top-section {
-  background: linear-gradient(180deg, #011b32 0%, #022647 100%);
+  background: linear-gradient(180deg, #021028 0%, #061a47 100%);
   height: 100vh;
   padding-bottom: 10em;
 
@@ -39,6 +39,13 @@ line-height: 48px;
   color: #011b32;
   margin: 0;
 }
+
+.call-to-action-white {
+    font-weight: 100;
+    font-size: 24.1773px;
+    color: white;
+    margin: 0;
+  }
 
 .top-image-container {
   position: relative;
@@ -74,6 +81,11 @@ line-height: 48px;
     border-radius: 9.28779px;
 }
 
+.btn-secondary-mine {
+    background-color: Transparent;
+    border: 3.441px solid #FFFFFF;
+    border-radius: 7px;
+}
 
 #profit-maximzer { 
     background-color: #8ECAE6;
@@ -82,9 +94,13 @@ line-height: 48px;
 
 .portfolio-desc {
 
+    h1 {
+        padding: 0 calc(1.5em) 0 0;
+    }
+
     background-color: white;
     border-radius: 18.6396px;
-    padding: 0 calc(2em) 0 calc(1em);
+    padding: 0 calc(1em) 0 calc(1em);
 }
 
 

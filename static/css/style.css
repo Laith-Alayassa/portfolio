@@ -14,8 +14,8 @@ html, body {
 }
 
 .top-section {
-  background: -webkit-gradient(linear, left top, left bottom, from(#011b32), to(#022647));
-  background: linear-gradient(180deg, #011b32 0%, #022647 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#021028), to(#061a47));
+  background: linear-gradient(180deg, #021028 0%, #061a47 100%);
   height: 100vh;
   padding-bottom: 10em;
 }
@@ -36,6 +36,13 @@ html, body {
   font-weight: 600;
   font-size: 24.1773px;
   color: #011b32;
+  margin: 0;
+}
+
+.call-to-action-white {
+  font-weight: 100;
+  font-size: 24.1773px;
+  color: white;
   margin: 0;
 }
 
@@ -73,6 +80,12 @@ html, body {
   border-radius: 9.28779px;
 }
 
+.btn-secondary-mine {
+  background-color: Transparent;
+  border: 3.441px solid #FFFFFF;
+  border-radius: 7px;
+}
+
 #profit-maximzer {
   background-color: #8ECAE6;
 }
@@ -80,7 +93,11 @@ html, body {
 .portfolio-desc {
   background-color: white;
   border-radius: 18.6396px;
-  padding: 0 calc(2em) 0 calc(1em);
+  padding: 0 calc(1em) 0 calc(1em);
+}
+
+.portfolio-desc h1 {
+  padding: 0 calc(1.5em) 0 0;
 }
 
 .portfolio-desc p {
