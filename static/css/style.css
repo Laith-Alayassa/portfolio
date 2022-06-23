@@ -1,6 +1,17 @@
-html, body {
+html,
+body {
   max-width: 100%;
   overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+container-lg {
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+}
+
+.scroll-area {
+  scroll-snap-align: start;
 }
 
 * {
@@ -14,8 +25,8 @@ html, body {
 }
 
 .top-section {
-  background: -webkit-gradient(linear, left top, left bottom, from(#021028), to(#061a47));
-  background: linear-gradient(180deg, #021028 0%, #061a47 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#011b32), to(#022647));
+  background: linear-gradient(180deg, #011b32 0%, #022647 100%);
   height: 100vh;
   padding-bottom: 10em;
 }
@@ -82,12 +93,24 @@ html, body {
 
 .btn-secondary-mine {
   background-color: Transparent;
-  border: 3.441px solid #FFFFFF;
+  border: 3.441px solid #ffffff;
   border-radius: 7px;
 }
 
 #profit-maximzer {
-  background-color: #8ECAE6;
+  background-color: #8ecae6;
+}
+
+#gas-thrifter {
+  background-color: #022647;
+}
+
+#space-invaderz {
+  background-color: #0E0E39;
+}
+
+#space-invaderz h1, #space-invaderz p {
+  color: #0E0E39;
 }
 
 .portfolio-desc {
@@ -138,5 +161,9 @@ html, body {
 
 .padding-maker #first-row {
   padding-top: calc(25vh);
+}
+
+.scroll-align {
+  scroll-snap-align: start;
 }
 /*# sourceMappingURL=style.css.map */

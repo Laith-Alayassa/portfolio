@@ -1,8 +1,18 @@
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
 }
 
+container-lg {
+  scroll-snap-type: y mandatory;
+}
+
+.scroll-area {
+    scroll-snap-align: start;
+}
 * {
   font-family: "Basic Sans";
   font-style: normal;
@@ -10,14 +20,13 @@ html, body {
 }
 
 .navbar a {
-  color: white; 
+  color: white;
 }
 
 .top-section {
-  background: linear-gradient(180deg, #021028 0%, #061a47 100%);
+  background: linear-gradient(180deg, #011b32 0%, #022647 100%);
   height: 100vh;
   padding-bottom: 10em;
-
 }
 
 .hero {
@@ -26,11 +35,10 @@ html, body {
   line-height: 96px;
 }
 
-
 .hero-secondary {
-    font-weight: 250;
-font-size: 40px;
-line-height: 48px;
+  font-weight: 250;
+  font-size: 40px;
+  line-height: 48px;
 }
 
 .call-to-action {
@@ -41,11 +49,11 @@ line-height: 48px;
 }
 
 .call-to-action-white {
-    font-weight: 100;
-    font-size: 24.1773px;
-    color: white;
-    margin: 0;
-  }
+  font-weight: 100;
+  font-size: 24.1773px;
+  color: white;
+  margin: 0;
+}
 
 .top-image-container {
   position: relative;
@@ -53,7 +61,7 @@ line-height: 48px;
 }
 
 #laith-photo {
-    z-index: 1;
+  z-index: 1;
 }
 
 #blurry-circle-front {
@@ -62,84 +70,94 @@ line-height: 48px;
   top: 100px;
 }
 
-
 #blurry-circle-backgorund {
-    position: absolute;
-    z-index: 0;
-    left: 300px;
-    
+  position: absolute;
+  z-index: 0;
+  left: 300px;
 }
 
 #computer-man {
-    position: absolute;
-    z-index: 0;
-    left: -200px;
-    bottom: -200px;
+  position: absolute;
+  z-index: 0;
+  left: -200px;
+  bottom: -200px;
 }
 
 .btn {
-    border-radius: 9.28779px;
+  border-radius: 9.28779px;
 }
 
 .btn-secondary-mine {
-    background-color: Transparent;
-    border: 3.441px solid #FFFFFF;
-    border-radius: 7px;
+  background-color: Transparent;
+  border: 3.441px solid #ffffff;
+  border-radius: 7px;
 }
 
-#profit-maximzer { 
-    background-color: #8ECAE6;
+#profit-maximzer {
+  background-color: #8ecae6;
+}
 
+#gas-thrifter {
+    background-color: #022647;
+}
+
+#space-invaderz {
+    background-color: #0E0E39;
+
+    h1, p{
+
+        color: #0E0E39 ;
+    }
 }
 
 .portfolio-desc {
+  h1 {
+    padding: 0 calc(1.5em) 0 0;
+  }
 
-    h1 {
-        padding: 0 calc(1.5em) 0 0;
-    }
-
-    background-color: white;
-    border-radius: 18.6396px;
-    padding: 0 calc(1em) 0 calc(1em);
+  background-color: white;
+  border-radius: 18.6396px;
+  padding: 0 calc(1em) 0 calc(1em);
 }
 
-
-.portfolio-desc p{
-    color: #011b32;
+.portfolio-desc p {
+  color: #011b32;
 }
 
 .project-title {
-    font-weight: 700;
-font-size: 41.95px;
-line-height: 50px;
-text-align: center;
+  font-weight: 700;
+  font-size: 41.95px;
+  line-height: 50px;
+  text-align: center;
 
-color: #023047;
+  color: #023047;
 }
 
-
 .card {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
-    width: 80vw;
-    height: calc(50vh);
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+  width: 80vw;
+  height: calc(50vh);
 }
 
 #profit-row {
-    margin-top: 500px;
+  margin-top: 500px;
 }
 
 #profit-photo {
-    position: absolute;
-    left: calc(50vw);
-    top: calc(12vh);
-    max-height: 50vh;
-    filter: drop-shadow(3.72792px 2.98233px 29.0777px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 7px rgba(0, 0, 0, 0.44));
+  position: absolute;
+  left: calc(50vw);
+  top: calc(12vh);
+  max-height: 50vh;
+  filter: drop-shadow(3.72792px 2.98233px 29.0777px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 7px rgba(0, 0, 0, 0.44));
 }
 
 .padding-maker #first-row {
-    padding-top: calc(25vh);
+  padding-top: calc(25vh);
 }
 
-
+.scroll-align {
+    scroll-snap-align: start;
+}
