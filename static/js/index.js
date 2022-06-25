@@ -8,3 +8,4 @@ function parallax(event) {
     shift.style.transform = `translateX(${x}px) translateY(${y}px)`;
   });
 }
+

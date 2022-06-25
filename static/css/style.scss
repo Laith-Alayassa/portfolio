@@ -9,6 +9,10 @@ body {
   background-color: #022647;
 }
 
+#background-color {
+  color: #022647;
+}
+
 container-lg {
   scroll-snap-type: y mandatory;
 }
@@ -190,8 +194,10 @@ container-lg {
 // https://codepen.io/markmead/pen/drORWG
 
 .fancy-link {
-
-  a, a:hover, a:focus, a:active {
+  a,
+  a:hover,
+  a:focus,
+  a:active {
     text-decoration: none;
     color: inherit;
   }
@@ -218,5 +224,19 @@ container-lg {
       height: 100%;
     }
   }
+}
+
+
+
+.bg-color {
+  color: #022647; 
+}
+
+#review-header {
+  justify-items: left;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #022647;
 }
 

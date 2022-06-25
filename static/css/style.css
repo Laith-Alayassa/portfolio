@@ -9,6 +9,10 @@ body {
   background-color: #022647;
 }
 
+#background-color {
+  color: #022647;
+}
+
 container-lg {
   -ms-scroll-snap-type: y mandatory;
       scroll-snap-type: y mandatory;
@@ -184,7 +188,10 @@ container-lg {
   font-size: 27.212px;
 }
 
-.fancy-link a, .fancy-link a:hover, .fancy-link a:focus, .fancy-link a:active {
+.fancy-link a,
+.fancy-link a:hover,
+.fancy-link a:focus,
+.fancy-link a:active {
   text-decoration: none;
   color: inherit;
 }
@@ -210,4 +217,16 @@ container-lg {
   bottom: -2px;
   width: 100%;
   height: 100%;
+}
+
+.bg-color {
+  color: #022647;
+}
+
+#review-header {
+  justify-items: left;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #022647;
 }/*# sourceMappingURL=style.css.map */
