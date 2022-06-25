@@ -5,6 +5,10 @@ body {
   overflow-y: scroll;
 }
 
+body {
+  background-color: #022647;
+}
+
 container-lg {
   -ms-scroll-snap-type: y mandatory;
       scroll-snap-type: y mandatory;
@@ -25,7 +29,6 @@ container-lg {
 }
 
 .top-section {
-  background: -webkit-gradient(linear, left top, left bottom, from(#011b32), to(#022647));
   background: linear-gradient(180deg, #011b32 0%, #022647 100%);
   height: 100vh;
   padding-bottom: 10em;
@@ -59,9 +62,7 @@ container-lg {
 
 .top-image-container {
   position: relative;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 #laith-photo {
@@ -106,21 +107,20 @@ container-lg {
 }
 
 #space-invaderz {
-  background-color: #0E0E39;
+  background-color: #0e0e39;
 }
-
-#space-invaderz h1, #space-invaderz p {
-  color: #0E0E39;
+#space-invaderz h1,
+#space-invaderz p {
+  color: #0e0e39;
 }
 
 .portfolio-desc {
   background-color: white;
   border-radius: 18.6396px;
-  padding: 0 calc(1em) 0 calc(1em);
+  padding: 0 1em 0 1em;
 }
-
 .portfolio-desc h1 {
-  padding: 0 calc(1.5em) 0 0;
+  padding: 0 1.5em 0 0;
 }
 
 .portfolio-desc p {
@@ -143,7 +143,7 @@ container-lg {
   margin-bottom: 10px;
   /* Added */
   width: 80vw;
-  height: calc(50vh);
+  height: 50vh;
 }
 
 #profit-row {
@@ -152,18 +152,62 @@ container-lg {
 
 #profit-photo {
   position: absolute;
-  left: calc(50vw);
-  top: calc(12vh);
+  left: 50vw;
+  top: 12vh;
   max-height: 50vh;
-  -webkit-filter: drop-shadow(3.72792px 2.98233px 29.0777px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 7px rgba(0, 0, 0, 0.44));
-          filter: drop-shadow(3.72792px 2.98233px 29.0777px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 7px rgba(0, 0, 0, 0.44));
+  filter: drop-shadow(3.72792px 2.98233px 29.0777px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 7px rgba(0, 0, 0, 0.44));
 }
 
 .padding-maker #first-row {
-  padding-top: calc(25vh);
+  padding-top: 25vh;
 }
 
 .scroll-align {
   scroll-snap-align: start;
 }
-/*# sourceMappingURL=style.css.map */
+
+.blog img {
+  height: 50vw;
+  max-width: 640;
+}
+.space-maker {
+  min-height: 100px;
+}
+
+#also {
+  font-weight: 700;
+  font-size: 51.9074px;
+}
+
+#run {
+  font-weight: 300;
+  font-size: 27.212px;
+}
+
+.fancy-link a, .fancy-link a:hover, .fancy-link a:focus, .fancy-link a:active {
+  text-decoration: none;
+  color: inherit;
+}
+.fancy-link a {
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  color: #ffffff;
+}
+.fancy-link a::after {
+  content: "";
+  background: rgba(255, 255, 255, 0.25);
+  position: absolute;
+  left: 12px;
+  bottom: -6px;
+  width: calc(100% - 8px);
+  height: calc(100% - 8px);
+  z-index: -1;
+  transition: 0.35s cubic-bezier(0.25, 0.1, 0, 2.05);
+}
+.fancy-link a:hover:after {
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=style.css.map */

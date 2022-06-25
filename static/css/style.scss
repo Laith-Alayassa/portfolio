@@ -3,7 +3,10 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   overflow-y: scroll;
-
+}
+$link: #ffffff;
+body {
+  background-color: #022647;
 }
 
 container-lg {
@@ -11,7 +14,7 @@ container-lg {
 }
 
 .scroll-area {
-    scroll-snap-align: start;
+  scroll-snap-align: start;
 }
 * {
   font-family: "Basic Sans";
@@ -98,16 +101,16 @@ container-lg {
 }
 
 #gas-thrifter {
-    background-color: #022647;
+  background-color: #022647;
 }
 
 #space-invaderz {
-    background-color: #0E0E39;
+  background-color: #0e0e39;
 
-    h1, p{
-
-        color: #0E0E39 ;
-    }
+  h1,
+  p {
+    color: #0e0e39;
+  }
 }
 
 .portfolio-desc {
@@ -159,5 +162,62 @@ container-lg {
 }
 
 .scroll-align {
-    scroll-snap-align: start;
+  scroll-snap-align: start;
 }
+
+.blog {
+  img {
+    height: calc(50vw);
+    max-width: calc(1280 / 2);
+  }
+
+  .pt-5 {
+  }
+}
+
+.space-maker {
+  min-height: 100px;
+}
+#also {
+  font-weight: 700;
+  font-size: 51.9074px;
+}
+#run {
+  font-weight: 300;
+  font-size: 27.212px;
+}
+
+// https://codepen.io/markmead/pen/drORWG
+
+.fancy-link {
+
+  a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+  a {
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    color: $link;
+    &::after {
+      content: "";
+      background: rgba($link, 0.25);
+      position: absolute;
+      left: 12px;
+      bottom: -6px;
+      width: calc(100% - 8px);
+      height: calc(100% - 8px);
+      z-index: -1;
+      transition: 0.35s cubic-bezier(0.25, 0.1, 0, 2.05);
+    }
+    &:hover:after {
+      left: 0;
+      bottom: -2px;
+      
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+  
