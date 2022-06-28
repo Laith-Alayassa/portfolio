@@ -230,12 +230,6 @@ container-lg {
   color: #022647;
 }
 
-.review {
-  min-height: -webkit-fit-content;
-  min-height: -moz-fit-content;
-  min-height: fit-content;
-}
-
 #dark-me {
   height: 400px;
 }/*# sourceMappingURL=style.css.map */
