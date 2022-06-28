@@ -170,7 +170,7 @@ container-lg {
 }
 
 .blog img {
-  height: 50vw;
+  height: 40vw;
   max-width: 640;
 }
 .space-maker {
@@ -232,4 +232,8 @@ container-lg {
 
 #dark-me {
   height: 400px;
+}
+
+.about-me {
+  background: linear-gradient(0deg, #011B32 0%, #022647 100%);
 }/*# sourceMappingURL=style.css.map */
