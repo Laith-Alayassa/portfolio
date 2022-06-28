@@ -170,7 +170,7 @@ container-lg {
 }
 
 .blog img {
-  height: 40vw;
+  height: 45vw;
   max-width: 640;
 }
 .space-maker {
@@ -236,4 +236,15 @@ container-lg {
 
 .about-me {
   background: linear-gradient(0deg, #011B32 0%, #022647 100%);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+span.emoji {
+  font-size: 30px;
+  vertical-align: middle;
 }/*# sourceMappingURL=style.css.map */

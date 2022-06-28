@@ -171,7 +171,7 @@ container-lg {
 
 .blog {
   img {
-    height: calc(40vw);
+    height: calc(45vw);
     max-width: calc(1280 / 2);
   }
 
@@ -248,4 +248,17 @@ container-lg {
 
 .about-me {
   background: linear-gradient(0deg, #011B32 0%, #022647 100%);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+span.emoji {
+  font-size: 30px;
+  vertical-align: middle;
+  // line-height: 2;
 }
