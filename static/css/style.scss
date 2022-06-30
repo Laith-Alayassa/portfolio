@@ -280,3 +280,18 @@ span.emoji {
   vertical-align: middle;
   // line-height: 2;
 }
+
+
+@media (max-width: 768px) {
+  #blurry-circle-front {
+    display: none;
+  }
+  
+  #blurry-circle-backgorund {
+    display: none;
+  }
+  
+  #computer-man {
+    display: none;
+  }
+}

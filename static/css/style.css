@@ -266,4 +266,18 @@ div.desc {
 span.emoji {
   font-size: 30px;
   vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  #blurry-circle-front {
+    display: none;
+  }
+
+  #blurry-circle-backgorund {
+    display: none;
+  }
+
+  #computer-man {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
