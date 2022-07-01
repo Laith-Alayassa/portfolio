@@ -9,3 +9,9 @@ function parallax(event) {
   });
 }
 
+$(window).resize(function(){
+  if($(window).width()< 1000){
+    $('.mx-auto.w-50').removeClass('w-50');
+  }
+
+ });

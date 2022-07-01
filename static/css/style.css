@@ -280,4 +280,69 @@ span.emoji {
   #computer-man {
     display: none;
   }
+
+  #photo-box {
+    margin-top: 2rem;
+  }
+
+  #name-box {
+    margin-top: 5em;
+  }
+
+  #name-box {
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+
+  #laith-photo {
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+
+  #first-row {
+    display: contents;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .col-mx-auto {
+    padding: 0px;
+  }
+
+  .mx-auto {
+    width: 80vw;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .w-50 {
+    width: 80vw;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .blog {
+    margin-top: 5rem;
+  }
+  .blog a img {
+    width: 100vw;
+    height: 86.2068965517vw;
+  }
+
+  .about-me-row .col {
+    padding-left: 100px;
+    padding-right: 5vw;
+  }
+
+  #dark-me {
+    width: 90vw;
+    height: 90vw;
+  }
+
+  .small-padding {
+    margin-top: 5rem;
+    padding-left: 15vw;
+    padding-right: 5vw;
+  }
 }/*# sourceMappingURL=style.css.map */
