@@ -345,4 +345,19 @@ span.emoji {
     padding-left: 15vw;
     padding-right: 5vw;
   }
+
+  #project-title {
+    padding-left: 0px;
+    margin: 0;
+  }
+
+  .small-center img {
+    width: 120%;
+    text-align: center;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    /*or fixed*/
+    padding-right: 20vw;
+    margin-top: 70vh;
+  }
 }/*# sourceMappingURL=style.css.map */
