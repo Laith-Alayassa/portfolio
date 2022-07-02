@@ -9,15 +9,16 @@ function parallax(event) {
   });
 }
 
-$(window).resize(function(){
-  if($(window).width()< 1000){
-    $('.mx-auto.w-50').removeClass('w-50');
-    $( "#empty-col" ).remove();
-    $( "#empty-col" ).remove();
-    $( "#empty-col" ).remove();
-    $('#project-title-1').addClass('p-0');
-    $('#project-title-2').addClass('p-0');
-    $('#project-title-3').addClass('p-0');
-  }
 
- });
+$(window).resize(function () {
+  if ($(window).width() < 1000) {
+    document.removeEventListener("mousemove", parallax);
+    $(".mx-auto.w-50").removeClass("w-50");
+    $("#empty-col").remove();
+    $("#empty-col").remove();
+    $("#empty-col").remove();
+    $("#project-title-1").addClass("p-0");
+    $("#project-title-2").addClass("p-0");
+    $("#project-title-3").addClass("p-0");
+  }
+});
