@@ -20,5 +20,9 @@ $(window).resize(function () {
     $("#project-title-1").addClass("p-0");
     $("#project-title-2").addClass("p-0");
     $("#project-title-3").addClass("p-0");
+    $("#profit-maximzer").addClass("pt-5");
+    $("#gas-thrifter").addClass("pt-5"); 
+    $("#space-invaderz").addClass("pt-5"); 
+    
   }
 });
