@@ -44,7 +44,7 @@ container-lg {
 }
 
 .hero-secondary {
-  font-weight: 250;
+  font-weight: 200;
   font-size: 40px;
   line-height: 48px;
 }
@@ -96,9 +96,11 @@ container-lg {
 }
 
 .btn-secondary-mine {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   background-color: Transparent;
-  border: 3.441px solid #ffffff;
-  border-radius: 7px;
+  border: 2.441px solid #ffffff;
 }
 
 #profit-maximzer {
@@ -107,6 +109,14 @@ container-lg {
 
 #gas-thrifter {
   background-color: #022647;
+}
+
+#bug-tracker {
+  background-color: #01563D;
+}
+#bug-tracker h1,
+#bug-tracker p {
+  color: #03815B;
 }
 
 #space-invaderz {
@@ -121,6 +131,9 @@ container-lg {
   background-color: white;
   border-radius: 18.6396px;
   padding: 0 1em 0 1em;
+}
+.portfolio-desc p {
+  max-width: 550px;
 }
 .portfolio-desc h1 {
   padding: 0 1.5em 0 0;
@@ -236,7 +249,7 @@ container-lg {
 
 .about-me {
   background: linear-gradient(0deg, #011B32 0%, #022647 100%);
-  font-weight: 250;
+  font-weight: 200;
 }
 
 ul {
